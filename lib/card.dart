@@ -6,7 +6,14 @@ import 'package:flutter_swipable/flutter_swipable.dart';
 class MyWidget extends StatefulWidget {
   final int cardcount;
   final String ctext;
-  const MyWidget({super.key, required this.cardcount, required this.ctext});
+  final String cardname;
+  final String title;
+  const MyWidget(
+      {super.key,
+      required this.cardcount,
+      required this.ctext,
+      required this.title,
+      required this.cardname});
 
   @override
   State<MyWidget> createState() => _MyWidgetState();
@@ -36,7 +43,7 @@ class _MyWidgetState extends State<MyWidget> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/images/bell.png',
+                'assets/images/${widget.cardname}',
                 width: 70,
                 height: 120,
               ),
@@ -45,7 +52,7 @@ class _MyWidgetState extends State<MyWidget> {
               ),
               Center(
                 child: Text(
-                  'Trip Porter',
+                  widget.title,
                   textAlign: TextAlign.center,
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
                 ),

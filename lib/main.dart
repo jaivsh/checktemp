@@ -74,50 +74,70 @@ class _MyAppState extends State<MyApp> {
                     children: [
                       MyWidget(
                         cardcount: cardcount + 9,
+                        title: 'Chamelion',
                         ctext: 'The purpose of our lives is to be happy',
+                        cardname: 'bell.png',
                       ),
                       MyWidget(
                         cardcount: cardcount + 8,
+                        title: 'Wierd',
                         ctext: 'Get busy living or get busy dying',
+                        cardname: 'card2.png',
                       ),
                       MyWidget(
                         cardcount: cardcount + 7,
+                        cardname: 'rocket.png',
+                        title: 'ATNT',
                         ctext:
                             'Life is what happens when you are busy making other plans',
                       ),
                       MyWidget(
                         cardcount: cardcount + 6,
+                        cardname: 'card2.png',
+                        title: 'Emulsion',
                         ctext:
                             'Never let the fear of striking out keep you from playing the game',
                       ),
                       MyWidget(
+                        cardname: 'card3.png',
                         cardcount: cardcount + 5,
+                        title: 'IED',
                         ctext:
                             'If you want to live a happy life, tie it to a goal, not to people or things',
                       ),
                       MyWidget(
+                        cardname: 'slider3.png',
                         cardcount: cardcount + 4,
+                        title: 'RDX',
                         ctext:
                             'Not how long, but how well you have lived is the main thing',
                       ),
                       MyWidget(
+                        cardname: 'slider2.png',
                         cardcount: cardcount + 3,
+                        title: 'Blasting',
                         ctext:
                             'In order to write about life first you must live it.',
                       ),
                       MyWidget(
+                        cardname: 'slider1.png',
                         cardcount: cardcount + 2,
+                        title: 'Fly Ash',
                         ctext:
                             'The big lesson in life, baby, is never be scared of anyone or anything',
                       ),
                       MyWidget(
+                        cardname: 'globe.png',
                         cardcount: cardcount + 1,
+                        title: 'Mortar',
                         ctext:
                             'The whole secret of a successful life is to find out what is one’s destiny to do, and then do it',
                       ),
                       MyWidget(
+                        cardname: 'mining.png',
                         cardcount: cardcount + 0,
                         ctext: 'The unexamined life is not worth living.',
+                        title: 'Trip Porter',
                       ),
                     ],
                   ),
